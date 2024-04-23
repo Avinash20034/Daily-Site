@@ -2,5 +2,5 @@ const toggleButton = document.getElementById('toggleButton');
 const sidebar = document.getElementById('sidebar');
 
 toggleButton.addEventListener('click', () => {
-    sidebar.classList.toggle('closed');
+    sidebar.classList.toggle('hidden');
 });
